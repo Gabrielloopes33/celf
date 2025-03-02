@@ -21,8 +21,8 @@ const Banner = () => {
     const scale = useTransform(scrollY, [0, 900], [1, 1.2]);
 
     return (
-        <div className='relative bg-gradient-to-br from-[#828282] via-[#fff] to-[#fff] animate-gradient-slow overflow-hidden'>
-            <div className='absolute inset-0 bg-grid-pattern opacity-[0.03] bg-grid-size'></div>
+        <div className='relative  from-[#ebebeb] via-[#fff] to-[#fff] animate-gradient-slow overflow-hidden'>
+            <div className='absolute inset-0 bg-grid-pattern opacity-[0.05] bg-grid-size'></div>
             <div className="relative mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
 
                 <div className='grid grid-cols-1 lg:grid-cols-12'>
@@ -45,14 +45,14 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-5 flex justify-center xl:-mb-24 xl:-mr-12 pt-20 lg:pt-10 overflow-hidden'>
+                    <div className='col-span-5 flex justify-center xl:-mb-12 xl:-mr-12 pt-20 lg:pt-10 overflow-hidden'>
                         <motion.div style={{ scale }}>
                             <Image 
-                                src="/assets/banner/banner.svg" 
+                                src="/assets/banner/Layer 0.svg" 
                                 alt="Banner ilustrativo" 
-                                width={1000} 
-                                height={1000} 
-                                className="w-full h-auto"
+                                width={1800} 
+                                height={929} 
+                                className="w-full h-full"
                             />
                         </motion.div>
                     </div>
