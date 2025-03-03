@@ -6,6 +6,10 @@ import Features from './components/Features/index';
 import Business from './components/Business/index';
 import Payment from './components/Payment/index';
 import Pricing from './components/Pricing/index';
+import Faixa from './components/Faixa/index'
+import Faixa2 from './components/Faixa2/index'
+
+
 
 export default function Home() {
   return (
@@ -16,9 +20,10 @@ export default function Home() {
       {/* Conteúdo */}
       <div className="relative z-10">
         <Banner />
-        
+        <Faixa /> 
         <Features />
         <Business />
+        <Faixa2 />
         <Payment />
 
         <People />

@@ -39,6 +39,12 @@ const Aboutdata: datatype[] = [
         heading: "Gestão de Obras",
         paragraph: 'Coordenação completa, do início ao fim, garantindo resultados.',
 
+    },
+    {
+        imgSrc: "/assets/features/Icon 07.svg",
+        heading: "Transparência durante as obras",
+        paragraph: 'Todo o processo de execução é monitorado e documentado.',
+
     }
 ]
 

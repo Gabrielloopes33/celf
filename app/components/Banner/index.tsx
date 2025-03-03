@@ -28,10 +28,9 @@ const Banner = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-12'>
 
 
-                    <div className='col-span-7 flex flex-col justify-evenly relative'>
-                        <Image src="/assets/banner/star.svg" alt="star-image" width={95} height={97} className='absolute top-[-74px] right-[51px]' />
-                        <Image src="/assets/banner/lineone.svg" alt="line-image" width={190} height={148} className='absolute top-[-94px] right-[11px]' />
-                        <h1 className='text-dodgerblue text-4xl md:text-85xl text-center lg:text-start font-semibold lh-133 pt-5'>Transformando e Realizando Sonhos.</h1>
+                    <div className='col-span-4 flex flex-col justify-evenly relative'>
+                        
+                        <h1 className='text-dodgerblue text-6xl md:text-85xl text-center lg:text-start font-semibold lh-133 pt-5'>Transformando e Realizando Sonhos.</h1>
                         <h2 className='text-dodgerblue opacity-75 text-lg font-normal text-center lg:text-start pt-8'>Soluções completas em reformas e planejamento para o Vale do Aço.</h2>
                         <div className='pt-8 mx-auto lg:mx-0'>
                             <a 
@@ -45,13 +44,13 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-5 flex justify-center xl:-mb-12 xl:-mr-12 pt-20 lg:pt-10 overflow-hidden'>
+                    <div className='col-span-8 flex justify-center xl:-mb-12 xl:-mr-12 pt-20 lg:pt-10 overflow-hidden'>
                         <motion.div style={{ scale }}>
                             <Image 
                                 src="/assets/banner/Layer 0.svg" 
                                 alt="Banner ilustrativo" 
-                                width={1800} 
-                                height={929} 
+                                width={1500} 
+                                height={500} 
                                 className="w-full h-full"
                             />
                         </motion.div>
