@@ -38,6 +38,7 @@ const Banner = () => {
     };
 
     return (
+<<<<<<< HEAD
         <div className='relative from-[#ebebeb] via-[#fff] to-[#fff] animate-gradient-slow overflow-hidden'>
             <div className='absolute inset-0 bg-grid-pattern opacity-[0.05] bg-grid-size'></div>
             <div className="relative mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
@@ -91,6 +92,8 @@ const Banner = () => {
                                 className="w-full h-full"
 =======
     return (
+=======
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
         <div className='relative  from-[#ebebeb] via-[#fff] to-[#fff] animate-gradient-slow overflow-hidden'>
             <div className='absolute inset-0 bg-grid-pattern opacity-[0.05] bg-grid-size'></div>
             <div className="relative mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
@@ -120,10 +123,16 @@ const Banner = () => {
                                 src="/assets/banner/Layer 0.svg" 
                                 alt="Banner ilustrativo" 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 width={1000} 
                                 height={1000} 
                                 className="w-full h-auto"
 >>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
+=======
+                                width={1500} 
+                                height={500} 
+                                className="w-full h-full"
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 =======
                                 width={1500} 
                                 height={500} 

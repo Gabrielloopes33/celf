@@ -41,6 +41,9 @@ const Aboutdata: datatype[] = [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 =======
 >>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
     },
@@ -50,8 +53,11 @@ const Aboutdata: datatype[] = [
         paragraph: 'Todo o processo de execução é monitorado e documentado.',
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
+=======
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 =======
 >>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
     }

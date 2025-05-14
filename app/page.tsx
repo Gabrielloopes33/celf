@@ -8,6 +8,9 @@ import Payment from './components/Payment/index';
 import Pricing from './components/Pricing/index';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 =======
 >>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 import Faixa from './components/Faixa/index'
@@ -15,8 +18,11 @@ import Faixa2 from './components/Faixa2/index'
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
+=======
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 =======
 >>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 
@@ -24,6 +30,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-white">
       {/* Padrão geométrico sutil no fundo */}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <div className="fixed inset-0 bg-grid-blueprint opacity-[0.04] pointer-events-none" />
@@ -36,12 +43,18 @@ export default function Home() {
 =======
       <div className="fixed inset-0 bg-grid-blueprint opacity-[0.04] pointer-events-none" />
 >>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
+=======
+      <div className="fixed inset-0 bg-grid-blueprint opacity-[0.04] pointer-events-none" />
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
 
       {/* Conteúdo */}
       <div className="relative z-10">
         <Banner />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
         <Faixa /> 
         <Features />
         <Business />
@@ -49,6 +62,7 @@ export default function Home() {
         <Payment />
 
         <People />
+<<<<<<< HEAD
 =======
 =======
         <Faixa /> 
@@ -64,6 +78,8 @@ export default function Home() {
 =======
 
         <People />
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
+=======
 >>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
       </div>
     </main>
