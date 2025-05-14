@@ -31,7 +31,11 @@ const Payment = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <motion.h2 
+<<<<<<< HEAD
                         className='text-midnightblue text-4xl sm:text-5xl font-bold text-center lg:text-start lh-140'
+=======
+                        className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-143'
+>>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
                         whileHover={{ scale: 1.02 }}
                     >
                         Nosso objetivo é transformar espaços, superando expectativas.
