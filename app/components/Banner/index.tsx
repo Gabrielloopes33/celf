@@ -91,17 +91,16 @@ const Banner = () => {
                                 className="w-full h-full"
 =======
     return (
-        <div className='relative bg-gradient-to-br from-[#828282] via-[#fff] to-[#fff] animate-gradient-slow overflow-hidden'>
-            <div className='absolute inset-0 bg-grid-pattern opacity-[0.03] bg-grid-size'></div>
+        <div className='relative  from-[#ebebeb] via-[#fff] to-[#fff] animate-gradient-slow overflow-hidden'>
+            <div className='absolute inset-0 bg-grid-pattern opacity-[0.05] bg-grid-size'></div>
             <div className="relative mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
 
                 <div className='grid grid-cols-1 lg:grid-cols-12'>
 
 
-                    <div className='col-span-7 flex flex-col justify-evenly relative'>
-                        <Image src="/assets/banner/star.svg" alt="star-image" width={95} height={97} className='absolute top-[-74px] right-[51px]' />
-                        <Image src="/assets/banner/lineone.svg" alt="line-image" width={190} height={148} className='absolute top-[-94px] right-[11px]' />
-                        <h1 className='text-dodgerblue text-4xl md:text-85xl text-center lg:text-start font-semibold lh-133 pt-5'>Transformando e Realizando Sonhos.</h1>
+                    <div className='col-span-4 flex flex-col justify-evenly relative'>
+                        
+                        <h1 className='text-dodgerblue text-6xl md:text-85xl text-center lg:text-start font-semibold lh-133 pt-5'>Transformando e Realizando Sonhos.</h1>
                         <h2 className='text-dodgerblue opacity-75 text-lg font-normal text-center lg:text-start pt-8'>Soluções completas em reformas e planejamento para o Vale do Aço.</h2>
                         <div className='pt-8 mx-auto lg:mx-0'>
                             <a 
@@ -115,15 +114,21 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-5 flex justify-center xl:-mb-24 xl:-mr-12 pt-20 lg:pt-10 overflow-hidden'>
+                    <div className='col-span-8 flex justify-center xl:-mb-12 xl:-mr-12 pt-20 lg:pt-10 overflow-hidden'>
                         <motion.div style={{ scale }}>
                             <Image 
-                                src="/assets/banner/banner.svg" 
+                                src="/assets/banner/Layer 0.svg" 
                                 alt="Banner ilustrativo" 
+<<<<<<< HEAD
                                 width={1000} 
                                 height={1000} 
                                 className="w-full h-auto"
 >>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
+=======
+                                width={1500} 
+                                height={500} 
+                                className="w-full h-full"
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
                             />
                         </motion.div>
                     </div>

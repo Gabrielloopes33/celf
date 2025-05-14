@@ -4,7 +4,11 @@ import React from 'react';
 
 const Faixa: React.FC = () => {
   return (
+<<<<<<< HEAD
     <div className="flex items-center justify-center h-90 bg-blue text-white animate-pulse animate-gradient animate-overflow- overflow-auto">
+=======
+    <div className="flex items-center justify-center h-90 bg-blue text-white animate-bounce animate-gradient animate-overflow- overflow-auto">
+>>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
       <div className="grid grid-cols-4 gap-20 p-10 max-w-7xl">
         <div className="stat-item">
           <h2>10+</h2>
