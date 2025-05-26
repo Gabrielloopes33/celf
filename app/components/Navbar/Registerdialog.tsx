@@ -7,11 +7,7 @@ import React from 'react'
 
 const Register = () => {
     let [isOpen, setIsOpen] = useState(false)
-<<<<<<< HEAD
     const whatsappLink = "https://wa.me/553183590826" // Substitua pelo seu número de WhatsApp
-=======
-    const whatsappLink = "https://wa.me/5531999999999" // Substitua pelo seu número de WhatsApp
->>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
 
     const closeModal = () => {
         setIsOpen(false)

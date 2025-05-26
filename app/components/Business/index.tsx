@@ -15,11 +15,7 @@ const Business = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <motion.h2 
-<<<<<<< HEAD
                         className='text-midnightblue text-4xl sm:text-5xl font-bold text-center lg:text-start lh-143'
-=======
-                        className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-143'
->>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
                         whileHover={{ scale: 1.02 }}
                         transition={{ duration: 0.2 }}
                     >
@@ -48,11 +44,7 @@ const Business = () => {
                 </motion.div>
 
                 <motion.div 
-<<<<<<< HEAD
-                    className='col-span-6 flex mt-25 lg:mt-0 '
-=======
                     className='col-span-6 flex justify-center mt-10 lg:mt-0 overflow-hidden'
->>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
@@ -64,8 +56,8 @@ const Business = () => {
                         <Image 
                             src="/assets/business/Icon 07.svg" 
                             alt="business" 
-                            width={10000} 
-                            height={10000}
+                            width={500} 
+                            height={500}
                             className="w-full h-auto" 
                         />
                     </motion.div>

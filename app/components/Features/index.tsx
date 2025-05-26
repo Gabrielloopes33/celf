@@ -20,48 +20,28 @@ const Aboutdata: datatype[] = [
         imgSrc: "/assets/features/Icon 02.svg",
         heading: "Revitalização de Fachadas",
         paragraph: 'Transforme a aparência do seu condomínio ou espaço comercial.',
-
     },
     {
         imgSrc: "/assets/features/Icon 03.svg",
         heading: "Manutenção Predial e Residencial",
         paragraph: 'Serviços de elétrica, hidráulica e acabamento.',
-
     },
     {
         imgSrc: "/assets/features/Icon 04.svg",
         heading: "Consultoria e Planejamento",
-        paragraph: ' Projetos detalhados para reformas otimizadas.',
-
+        paragraph: 'Projetos detalhados para reformas otimizadas.',
     },
     {
         imgSrc: "/assets/features/Icon 05.svg",
         heading: "Gestão de Obras",
         paragraph: 'Coordenação completa, do início ao fim, garantindo resultados.',
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
-=======
->>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
     },
     {
         imgSrc: "/assets/features/Icon 07.svg",
         heading: "Transparência durante as obras",
         paragraph: 'Todo o processo de execução é monitorado e documentado.',
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f25c1ee7323688f4c75647129f058196f6354bc5
-=======
->>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
-=======
->>>>>>> 393d7d94133f2a9c620588625b0d0782f1fe085b
     }
-]
+];
 
 const Features = () => {
     return (
@@ -89,7 +69,7 @@ const Features = () => {
                             >
                                 <Image 
                                     src={item.imgSrc} 
-                                    alt={item.imgSrc} 
+                                    alt={item.heading} 
                                     width={100} 
                                     height={100} 
                                     className="mb-4"
@@ -98,7 +78,7 @@ const Features = () => {
                             <h3 className="text-2xl font-semibold text-black mt-5">{item.heading}</h3>
                             <h4 className='text-lg font-normal text-black opacity-50 my-2'>{item.paragraph}</h4>
                             <Link href={'/'} className="text-electricblue text-xl font-medium flex gap-2 pt-10 pb-2">
-                                 <Image src="/assets/people/arrow-right.svg" alt="arrow-right" width={24} height={24} />
+                                <Image src="/assets/people/arrow-right.svg" alt="arrow-right" width={24} height={24} />
                             </Link>
                         </motion.div>
                     ))}
