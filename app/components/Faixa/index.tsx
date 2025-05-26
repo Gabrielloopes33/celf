@@ -4,7 +4,7 @@ import React from 'react';
 
 const Faixa: React.FC = () => {
   return (
-    <div className="flex items-center justify-center h-90 bg-blue text-white animate-bounce animate-gradient overflow-auto">
+    <div className="flex items-center justify-center h-90 bg-blue text-white animate-gradient overflow-auto">
       <div className="grid grid-cols-4 gap-20 p-10 max-w-7xl">
         <div className="stat-item">
           <h2>10+</h2>

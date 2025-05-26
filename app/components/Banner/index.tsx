@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 const Banner = () => {
     const scrollY = useMotionValue(0);
     
-    // Update scroll value
     useEffect(() => {
         const handleScroll = () => {
             scrollY.set(window.scrollY);
@@ -17,10 +16,8 @@ const Banner = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [scrollY]);
 
-    // Convert scroll into scale
     const scale = useTransform(scrollY, [0, 900], [1, 1.2]);
 
-    // Animation variants for h1, h2, and button
     const textVariants = {
         initial: { opacity: 0, y: 50 },
         animate: { opacity: 1, y: 0 },
@@ -36,9 +33,9 @@ const Banner = () => {
             <div className='absolute inset-0 bg-grid-pattern opacity-[0.05] bg-grid-size'></div>
             <div className="relative mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
                 <div className='grid grid-cols-1 lg:grid-cols-12'>
-                    <div className='col-span-4 flex flex-col justify-evenly relative'>
+                    <div className='col-span-4 flex flex-col justify-evenly relative px-4'>
                         <motion.h1 
-                            className='text-dodgerblue text-6xl md:text-85xl text-center lg:text-start font-bold lh-150 pt-5'
+                            className='text-dodgerblue text-4xl md:text-6xl lg:text-85xl text-left font-bold lh-150 pt-5'
                             variants={textVariants}
                             initial="initial"
                             animate="animate"
@@ -48,24 +45,24 @@ const Banner = () => {
                         </motion.h1>
                         
                         <motion.h2 
-                            className='text-dodgerblue opacity-75 text-lg font-normal text-center lg:text-start pt-8'
+                            className='text-dodgerblue opacity-75 text-lg font-normal text-left pt-8'
                             variants={textVariants}
                             initial="initial"
                             animate="animate"
-                            transition={{ duration: 0.5, delay: 0.2 }} // Optional delay
+                            transition={{ duration: 0.5, delay: 0.2 }}
                         >
                             Soluções completas em reformas e planejamento para o Vale do Aço.
                         </motion.h2>
 
                         <div className='pt-8 mx-auto lg:mx-0'>
                             <motion.a 
-                                href="https://wa.me/553183590826" // Substitute with your number
+                                href="https://wa.me/553183590826"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 variants={buttonVariants}
                                 initial="initial"
                                 animate="animate"
-                                transition={{ duration: 0.5, delay: 0.4 }} // Optional delay
+                                transition={{ duration: 0.5, delay: 0.4 }}
                                 className="text-white text-xl font-medium py-6 px-12 rounded-full transition duration-150 ease-in-out bg-[#1a3a8f] hover:opacity-90 inline-block"
                             >
                                 Faça seu orçamento
