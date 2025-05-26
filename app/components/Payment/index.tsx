@@ -18,8 +18,8 @@ const Payment = () => {
                     <Image 
                         src="/assets/payment/Icon 06.svg" 
                         alt="Builder" 
-                        width={10000} 
-                        height={10000} 
+                        width={1500} 
+                        height={500} 
                         className="w-full h-auto"
                     />
                 </motion.div>

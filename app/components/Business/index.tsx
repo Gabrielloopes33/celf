@@ -56,7 +56,7 @@ const Business = () => {
                         <Image 
                             src="/assets/business/Icon 07.svg" 
                             alt="business" 
-                            width={500} 
+                            width={1500} 
                             height={500}
                             className="w-full h-auto" 
                         />
